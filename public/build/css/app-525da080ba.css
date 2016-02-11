@@ -5755,4 +5755,7 @@ button.close {
 body {
   padding-top: 70px; }
 
+.gallery__image {
+  margin: 5px; }
+
 /*# sourceMappingURL=app.css.map */

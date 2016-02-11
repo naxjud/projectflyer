@@ -15,11 +15,11 @@ elixir(function(mix) {
     mix.sass('app.scss')
         .scripts([
           'libs/sweetalert-dev.js',
-          'libs/dropzone.js'
+          'libs/dropzone.js',
         ],'./public/js/libs.js')
         .styles([
           'libs/sweetalert.css',
-          'libs/dropzone.css'
+          'libs/dropzone.css',
         ],'./public/css/libs.css')
         .version(['public/css/app.css']);
 });
